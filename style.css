@@ -66,3 +66,36 @@ button{
 .grey_btn{
     background-color: 	#899499;
 }
+@media (max-width: 425px) {
+    body {
+        padding: 0.5rem;
+    }
+
+    .calculator {
+        padding: 1.5rem;
+        border-radius: 1rem;
+    }
+
+    input {
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+
+    button {
+        width: 55px;
+        height: 55px;
+        font-size: 16px;
+        margin: 6px;
+    }
+
+    .button_grid {
+        gap: 0.5rem;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .equal_btn {
+        font-size: 18px;
+        height: 65px;
+        width: 65px;
+    }
+}
